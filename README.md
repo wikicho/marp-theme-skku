@@ -19,12 +19,12 @@ This is a SKKU(성균관대학과) Style Marp theme
     ```
     <!-- _header: 목차 -->
     <!-- _class: cont -->
-    설론 <pag>Page 20</pag>
+    서론 <pag>Page 20</pag>
     본론 <pag>Page 30</pag>
     결론 <pag>Page 40</pag>
     ```
 - 텍스트 50 : img 50
-    - 
+    - with class 't50-i50'
     ```
     <!-- _class: t50-i50 -->
     ```
