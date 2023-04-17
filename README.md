@@ -24,8 +24,10 @@ This is a SKKU(성균관대학과) Style Marp theme
     결론 <pag>Page 40</pag>
     ```
 - 텍스트 50 : img 50
-    - <!-- _class: t50-i50 -->
-    
+    - 
+    ```
+    <!-- _class: t50-i50 -->
+    ```
     예시:
     ```
         - Heating Step
