@@ -1,4 +1,4 @@
-/* @theme wikicho-skku */
+/* @theme skku-template */
 
 @import 'gaia';
 
@@ -201,6 +201,8 @@ section.t75-i25, section.t50-i50, section.t25-i75 {
   section.t50-i50 p {
     width: 45%;
     align-items: center;
+    margin-top: 10%;
+    font-size: 40px;
   }
   
   section.t50-i50 p > img {
@@ -208,6 +210,7 @@ section.t75-i25, section.t50-i50, section.t25-i75 {
     position: fixed;
     right: 0px;
     margin-right: 40px;
+    margin-top: -10%;
     max-height: 67.5%;
     max-width: 50%;
     width: auto;
@@ -227,3 +230,9 @@ section.t75-i25, section.t50-i50, section.t25-i75 {
     max-width: 75%;
     width: auto;
   }
+
+  section.end h1{
+    text-align: center;
+    margin-top: 18%;
+    font-size: 280%;
+    }
