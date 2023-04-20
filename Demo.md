@@ -3,6 +3,7 @@ marp: true
 theme: skku-template
 footer: footer
 paginate: true
+math: mathjax
 
 ---
 <!-- _class: lead  -->
