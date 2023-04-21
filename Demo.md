@@ -3,7 +3,7 @@ marp: true
 theme: skku-template-blue
 footer: footer
 paginate: true
-math: mathjax
+math: katex
 
 ---
 <!-- _class: lead  -->

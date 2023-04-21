@@ -20,7 +20,6 @@ section {
     padding-right: 75px;
 }
 
-
 /* https://github.com/marp-team/marpit/issues/271 */
 section::after {
     font-weight: 700;
@@ -37,8 +36,6 @@ section.lead {
     padding-right: 48px;
 }
 
-
-
 section.lead h1 {
     color: rgb(7, 42, 96);
     text-align: left;
@@ -51,48 +48,40 @@ section.lead h1 {
 
 section.lead h1 strong {
     -webkit-text-stroke: 1px rgb(7, 42, 96);
-    ;
 }
 
 section.lead h2 {
     color: rgb(43, 102, 83);
-    ;
     text-align: left;
     padding-left: 110px;
 }
 
 section.lead h2 strong {
     -webkit-text-stroke: 1px rgb(43, 102, 83);
-    ;
 }
 
 section.lead h3 {
     color: rgb(43, 102, 83);
-    ;
     text-align: left;
     padding-left: 110px;
 }
 
 section.lead h3 strong {
     -webkit-text-stroke: 1px rgb(43, 102, 83);
-    ;
 }
 
 section.lead h4 {
     color: rgb(43, 102, 83);
-    ;
     text-align: left;
     padding-left: 110px;
 }
 
 section.lead h4 strong {
     -webkit-text-stroke: 1px rgb(43, 102, 83);
-    ;
 }
 
 section.lead h5 {
     color: rgb(43, 102, 83);
-    ;
     text-align: left;
     padding-left: 110px;
 }
@@ -177,21 +166,21 @@ code {
     font-family: 'Source Code Pro', monospace;
 }
 
-
-
 /* text-image styles */
-section.t75-i25, section.t50-i50, section.t25-i75 {
+section.t75-i25,
+section.t50-i50,
+section.t25-i75 {
     display: grid;
     grid-template: "header" 5%
-                   "body" 75%;
-  }
-  
-  /* t75-i25 styling */
-  section.t75-i25 p {
+        "body" 75%;
+}
+
+/* t75-i25 styling */
+section.t75-i25 p {
     width: 70%;
-  }
-  
-  section.t75-i25 p > img {
+}
+
+section.t75-i25 p>img {
     background-color: var(--light-accent-color);
     position: fixed;
     right: 0px;
@@ -199,17 +188,17 @@ section.t75-i25, section.t50-i50, section.t25-i75 {
     max-height: 67.5%;
     max-width: 25%;
     width: auto;
-  }
-  
-  /* t50-i50 styling */
-  section.t50-i50 p {
-    padding-top:-15%;
+}
+
+/* t50-i50 styling */
+section.t50-i50 p {
+    padding-top: -15%;
     width: 45%;
     align-items: center;
     font-size: 40px;
-  }
-  
-  section.t50-i50 p > img {
+}
+
+section.t50-i50 p>img {
     background-color: var(--light-accent-color);
     position: fixed;
     right: 0px;
@@ -218,14 +207,14 @@ section.t75-i25, section.t50-i50, section.t25-i75 {
     max-height: 67.5%;
     max-width: 50%;
     width: auto;
-  }
-  
-  /* t25-i75 styling */
-  section.t25-i75 p {
+}
+
+/* t25-i75 styling */
+section.t25-i75 p {
     width: 20%;
-  }
-  
-  section.t25-i75 p > img {
+}
+
+section.t25-i75 p>img {
     background-color: var(--light-accent-color);
     position: fixed;
     right: 0px;
@@ -233,10 +222,10 @@ section.t75-i25, section.t50-i50, section.t25-i75 {
     max-height: 67.5%;
     max-width: 75%;
     width: auto;
-  }
+}
 
-  section.end h1{
+section.end h1 {
     text-align: center;
     margin-top: 18%;
     font-size: 280%;
-    }
+}
