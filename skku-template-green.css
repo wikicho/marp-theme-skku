@@ -1,4 +1,4 @@
-/* @theme skku-template */
+ /* @theme skku-template-green */
 
 @import 'gaia';
 
@@ -9,7 +9,7 @@
 :root {
     --color-background: #fff;
     --color-foreground: #333;
-    --color-highlight: rgb(7, 42, 96);
+    --color-highlight: rgb(43, 102, 83);
 }
 
 section {
@@ -40,7 +40,7 @@ section.lead {
 
 
 section.lead h1 {
-    color: rgb(7, 42, 96);
+    color: rgb(43, 102, 83);
     text-align: left;
     background-image: url("skku_logo.jpg");
     background-position: left;
@@ -50,7 +50,7 @@ section.lead h1 {
 }
 
 section.lead h1 strong {
-    -webkit-text-stroke: 1px rgb(7, 42, 96);
+    -webkit-text-stroke: 1px rgb(43, 102, 83);
     ;
 }
 
@@ -98,7 +98,7 @@ section.lead h5 {
 }
 
 section.lead h5 strong {
-    -webkit-text-stroke: 1px rgb(7, 42, 96);
+    -webkit-text-stroke: 1px rgb(43, 102, 83);
 }
 
 section.lead p {
@@ -110,6 +110,10 @@ section p {
     font-size: 27px;
 }
 
+ul {
+    font-size: 27px;
+
+}
 
 section.cont {
     padding-top: 150px;
@@ -120,7 +124,7 @@ section.cont p {
 }
 
 section.cont pag {
-    color: rgb(7, 42, 96);
+    color: rgb(43, 102, 83);
     font-size: 20px;
     -webkit-text-stroke: 0px;
 }
@@ -134,7 +138,7 @@ section.end h2,
 section.end h3,
 section.end h4 {
     text-align: center;
-    color: rgb(7, 42, 96);
+    color: rgb(43, 102, 83);
 }
 
 section.end p {
@@ -142,7 +146,7 @@ section.end p {
 }
 
 header {
-    background-color: rgb(7, 42, 96);
+    background-color: rgb(43, 102, 83);
     color: #fff;
     font-size: 1em;
     font-weight: 700;
@@ -199,9 +203,9 @@ section.t75-i25, section.t50-i50, section.t25-i75 {
   
   /* t50-i50 styling */
   section.t50-i50 p {
+    padding-top:-15%;
     width: 45%;
     align-items: center;
-    margin-top: 10%;
     font-size: 40px;
   }
   
@@ -210,7 +214,7 @@ section.t75-i25, section.t50-i50, section.t25-i75 {
     position: fixed;
     right: 0px;
     margin-right: 40px;
-    margin-top: -10%;
+    padding-top: -15%;
     max-height: 67.5%;
     max-width: 50%;
     width: auto;

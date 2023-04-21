@@ -1,12 +1,14 @@
 ---
 marp: true
-theme: skku-template
+theme: skku-template-blue
 footer: footer
 paginate: true
 math: mathjax
 
 ---
 <!-- _class: lead  -->
+<!-- _paginate: false-->
+
 # Presentation Title
 #### subtitle
 
@@ -25,31 +27,27 @@ Department of Physics
 
 
 ---
+<!--_class: cont -->
 <!-- _header: Introduction-->
 
-The Equation is
-$$ 
-\begin{equation}
-    E = mc^2
-\end{equation}
-$$
-
+What ever you want to say
 
 ---
 <!-- _class: t50-i50 -->
 <!-- _header: Left: Text 50% | Right : Image 50% -->
 
-- Lorem ipsum
+- list 1 
 
-- 
+- list 2
 
-- 
+- list 3
 
 ![](skku_logo.jpg)
 
 
 ---
 <!-- _class: end -->
+<!-- _paginate: false-->
 
 # Thank You!
 
